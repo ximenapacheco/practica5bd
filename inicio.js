@@ -35,7 +35,8 @@ var conexion=mysql.createConnection({
         encaminar(pedido,respuesta,camino);
     });
 
-    servidor.listen(3000);
+    var port=process.env.PORT || 3000;
+    ervidor.listen(port);
 
     function encaminar (pedido,respuesta,camino) {
         switch (camino) {
