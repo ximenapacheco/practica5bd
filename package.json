@@ -1,0 +1,25 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "inicio.js",
+  "scripts": {
+    "dev": "node inicio.js",
+    "start": "node inicio.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "querystring": "^0.2.1",
+    "socket.io": "^3.1.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
